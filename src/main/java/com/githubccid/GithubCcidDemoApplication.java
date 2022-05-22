@@ -1,0 +1,13 @@
+package com.githubccid;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class GithubCcidDemoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(GithubCcidDemoApplication.class, args);
+	}
+
+}
