@@ -11,6 +11,7 @@ public class GithubCcidDemoApplication {
 
 	@GetMapping("/welcome")
 	public String welcome() {
+		System.out.println("We are commitig in local repository");
 		return "Welcome to Github CICD Configuration";
 	}
 	
