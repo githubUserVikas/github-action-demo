@@ -15,6 +15,13 @@ public class GithubCcidDemoApplication {
 		return "Welcome to Github CICD Configuration";
 	}
 	
+	
+	@GetMapping("/customMethod")
+	public String welcome() {
+		System.out.println("We are commitig in local repository");
+		return "Welcome to Github CICD Custom Method";
+	}
+	
 	public static void main(String[] args) {
 		SpringApplication.run(GithubCcidDemoApplication.class, args);
 	}
